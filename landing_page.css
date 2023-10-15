@@ -1,0 +1,202 @@
+/* Reset some default styles for better cross-browser consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Common styles for all screen sizes */
+body {
+    background-image: url("images/alumni-fb.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; /* Changed to cover for a responsive background */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #002E6D;
+    padding: 20px 35px;
+    position: fixed;
+    width: 100%;
+    z-index: 1; /* Ensure header stays above other content */
+}
+
+.logo img {
+    width: 176px;
+    height: 32px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.nav-links a {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner {
+    text-align: center;
+    padding-top: 95px;
+}
+
+.banner h1 {
+    font-size: 32px;
+    color: #9e2027;
+    margin-bottom: 15px;
+}
+
+.banner p {
+    font-size: 18px;
+    color: #022455;
+    font-family: cursive;
+    padding-top: 25px;
+}
+
+.nex-obj {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 20px; /* Adjusted margin for responsiveness */
+}
+
+.nexus-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Adjusted gap for responsiveness */
+}
+
+.nexus h2 {
+    font-size: 24px;
+    color: #be1414;
+    margin-bottom: 15px;
+}
+
+.nexus p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #e8e7ec;
+    margin-bottom: 15px;
+}
+
+.objectives {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.objectives h3 {
+    font-size: 24px;
+    color: #bb0909;
+    margin-bottom: 15px;
+}
+
+.objectives p {
+    font-size: 16px;
+    font-weight: 720;
+    color: #e8e7ec;
+    margin-bottom: 15px;
+    margin-top: 30px; /* Adjusted margin for responsiveness */
+}
+
+.overview {
+    background-image: url("images/socials.jpeg");
+    background-size: cover;
+}
+.overview-inside {
+    margin-right: 65px;
+    margin-left: 65px;
+    padding-top: 35px;
+    padding-bottom: 65px;
+}
+
+.overview h4 {
+    color: #ffffff;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    line-height: 1;
+    text-align: left;
+}
+
+.overview p {
+    color: #FFFFFFA6;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.5em;
+    letter-spacing: 0.4px;
+}
+
+.logo-socials {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-socials img {
+    width: 115px;
+    height: 21px;
+}
+
+.logo-socials .socials {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+hr {
+    color: #f1eeee;
+}
+
+.about-stay-contact {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-alu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.stay {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.stay a {
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #D00D2D;
+    color: #FFFFFFA6;
+    height: 70px;
+}
