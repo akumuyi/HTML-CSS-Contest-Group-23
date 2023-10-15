@@ -115,12 +115,6 @@ body {
     background-image: url("images/socials.jpeg");
     background-size: cover;
 }
-.overview-inside {
-    margin-right: 65px;
-    margin-left: 65px;
-    padding-top: 35px;
-    padding-bottom: 65px;
-}
 
 .overview h4 {
     color: #ffffff;
@@ -147,14 +141,13 @@ body {
 }
 
 .logo-socials img {
-    width: 115px;
-    height: 21px;
+    width: 26%;
+    padding: 10px;
 }
 
 .logo-socials .socials {
     display: flex;
     justify-content: space-between;
-    gap: 30px;
 }
 
 hr {
@@ -171,6 +164,7 @@ hr {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    padding: 10px;
 }
 
 .stay {
@@ -178,6 +172,7 @@ hr {
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 10px;
 }
 
 .stay a {
@@ -188,9 +183,18 @@ hr {
     letter-spacing: 0.4px;
 }
 
+.stay span {
+    color: #FFFFFFA6;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+
 .contact {
     display: flex;
     flex-direction: column;
+    padding: 10px;
 }
 
 footer {
