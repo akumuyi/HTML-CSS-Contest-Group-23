@@ -24,23 +24,32 @@ body {
     z-index: 1; /* Ensure header stays above other content */
 }
 
+.logo {
+    padding: 10px 10px 10px 50px;
+    align-content: center;
+    align-items: center;
+}
 .logo img {
-    width: 176px;
-    height: 32px;
+    width: 105px;
+    height: 20px;
 }
 
 .nav-links {
     display: flex;
-    gap: 25px;
     flex-wrap: wrap;
 }
 
 .nav-links a {
-    font-family: sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
     text-decoration: none;
+    padding: 0px 0px 0px 50px;
+    height: 100%;
+    align-items: center;
 }
 
 .banner {
@@ -116,6 +125,13 @@ body {
     background-size: cover;
 }
 
+.overview-inside {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 50px 0px;
+}
+
 .overview h4 {
     color: #ffffff;
     font-family: "Montserrat", Sans-serif;
@@ -137,27 +153,44 @@ body {
 
 .logo-socials {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #FFFFFF75;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 0px 0px 8px 0px;
+    margin: 0px 45px;
+    /*padding-top: 15px;
+    padding: 0px 45px;*/
 }
 
-.logo-socials img {
-    width: 26%;
+.logo-socials-alu {
+    width: 15.5%;
     padding: 10px;
 }
 
-.logo-socials .socials {
-    display: flex;
+.socials {
+    display: inline-flex;
+    flex-direction: row;
     justify-content: space-between;
+    position: relative;
+    padding: 10px;
+    gap: 55px;
 }
 
-hr {
+/*.hr {
     color: #f1eeee;
-}
+    padding: 0px 45px;
+    line-height: 1;
+    font-size: 0;
+}*/
 
 .about-stay-contact {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 0px 45px;
 }
 
 .about-alu {
@@ -165,6 +198,7 @@ hr {
     flex-direction: column;
     flex-wrap: wrap;
     padding: 10px;
+    align-content: flex-start;
 }
 
 .stay {
@@ -173,6 +207,7 @@ hr {
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 10px;
+    align-content: flex-start;
 }
 
 .stay a {
@@ -195,6 +230,7 @@ hr {
     display: flex;
     flex-direction: column;
     padding: 10px;
+    align-content: flex-start;
 }
 
 footer {
